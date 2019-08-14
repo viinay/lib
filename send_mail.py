@@ -57,3 +57,15 @@ def sendmail(auth,maildetails):
     server.login(auth['username'],auth['password'])
     server.sendmail(auth['username'], maildetails['to'],get_msg(maildetails))
     server.quit()
+
+    
+#app.py
+# from send_mail import sendmail
+# auth = {'username':'vinay@accio.ai','password':'vinay@123'}
+# maildetails = {
+#     'to':'vinay@accio.ai',
+#     'subject':'New Articles',
+#     'preamble':'new articles',
+#     'attachments':[{'fileToSend':'./csvs/realsimple.csv','filename':'new_articles_realsimple'}]
+# }
+sendmail(auth,maildetails)
