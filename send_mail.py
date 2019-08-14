@@ -68,4 +68,4 @@ def sendmail(auth,maildetails):
 #     'preamble':'new articles',
 #     'attachments':[{'fileToSend':'./csvs/realsimple.csv','filename':'new_articles_realsimple'}]
 # }
-sendmail(auth,maildetails)
+# sendmail(auth,maildetails)
