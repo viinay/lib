@@ -61,7 +61,7 @@ def sendmail(auth,maildetails):
     
 #app.py
 # from send_mail import sendmail
-# auth = {'username':'vinay@accio.ai','password':'vinay@123'}
+# auth = {'username':'vinay@gmail.com','password':'vinay'}
 # maildetails = {
 #     'to':'vinay@accio.ai',
 #     'subject':'New Articles',
